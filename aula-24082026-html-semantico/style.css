@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
+    margin: 0; /* Define a margem do elemento*/
     padding: 0;
     background-color: #b83030;   
 }
@@ -9,12 +9,18 @@ body {
 header {
     background-color: #333;
     color: #4fd15a;
+    margin: 20px;
     padding: 20px 0;
     text-align: center;
 }
 
-nav ul {
+nav {
     background-color: #98cb9c;
+    margin: 20px;
+}
+
+nav ul {
+    background-color: #db3477;
     display: flex;
     list-style: none;
     justify-content: center; /* Centraliza os itens do menu */
@@ -26,3 +32,21 @@ nav a {
     text-decoration: none;
 
 }   
+
+main {
+    background-color: #5530e8;
+    margin: 20px;
+}
+
+main aside ul {
+    background-color: #ce94ab;
+    display: flex;
+    list-style: none;
+    justify-content: center; /* Centraliza os itens do menu */
+    gap: 20px; /* Adiciona espaçamento entre os itens do menu */
+}
+
+#lala {
+    background-color: #f95999;
+    margin: 40px;
+}
